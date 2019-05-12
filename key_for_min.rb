@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
     if name_hash.empty?
       return nil
     else
-      return key_for_min_value(keys_values)
+      return key_for_min_value(name_hash)
     end
 end
