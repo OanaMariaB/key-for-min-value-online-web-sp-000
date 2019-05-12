@@ -8,5 +8,6 @@ def key_for_min_value(name_hash)
   else
     return key_for_min_value(keys_values)
   end
+end
   end
 end
